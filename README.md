@@ -1,5 +1,7 @@
 # fivem-cfg
 
+[![NPM Version](https://img.shields.io/npm/v/fivem-cfg)](https://www.npmjs.com/package/fivem-cfg)
+
 Write your FiveM `server.cfg` in TypeScript. Get type-checking, autocomplete and a generated configuration file through a CLI or programmatically.
 
 ### CLI
