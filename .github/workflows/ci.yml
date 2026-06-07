@@ -23,9 +23,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm format
-      - run: pnpm lint
-      - run: pnpm test
+      - run: pnpm check
 
       - name: Lint commit messages
         run: pnpm dlx commitlint --from ${{ github.event.pull_request.base.sha || github.event.before }} --to HEAD
