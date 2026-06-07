@@ -53,7 +53,7 @@ pnpm add fivem-cfg
 
 All configuration options and their descriptions are documented as JSDoc annotations in [`src/schema.ts`](src/schema.ts).
 
-The schema covers all officially documented [server-commands](https://docs.fivem.net/docs/server-manual/server-commands/). Use the `set`/`sets`/`setr` escape hatches for any convars not in the schema:
+The schema covers all officially documented [server-commands](https://docs.fivem.net/docs/server-manual/server-commands/). Use the `set`/`sets`/`setr` (see ["Convars"](https://docs.fivem.net/docs/scripting-reference/convars/)) escape hatches for any convars not in the schema:
 
 ```ts
 defineServer({
