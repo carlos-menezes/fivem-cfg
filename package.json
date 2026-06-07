@@ -1,6 +1,6 @@
 {
 	"name": "fivem-cfg",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "TypeScript config generator for FiveM server.cfg files",
 	"type": "module",
 	"exports": {
