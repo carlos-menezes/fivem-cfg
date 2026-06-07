@@ -1,5 +1,5 @@
-export { defineServer } from "./define-server";
-export { generate } from "./generate";
-export type { ServerConfigurationSchema } from "./schema";
-export { serverConfigurationSchema } from "./schema";
-export { ServerConfiguration } from "./server-configuration";
+export { defineServer } from "./define-server.js";
+export { generate } from "./generate.js";
+export type { ServerConfigurationSchema } from "./schema.js";
+export { serverConfigurationSchema } from "./schema.js";
+export { ServerConfiguration } from "./server-configuration.js";

@@ -1,4 +1,4 @@
-import type { ServerConfigurationSchema } from "./schema";
+import type { ServerConfigurationSchema } from "./schema.js";
 
 const esc = (value: string): string => {
 	if (/[\s"]/.test(value)) {
