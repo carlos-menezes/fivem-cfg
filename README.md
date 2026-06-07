@@ -13,7 +13,6 @@ import { defineServer } from "fivem-cfg";
 export default defineServer({
 	hostname: "My RP Server",
 	maxClients: 64,
-	oneSync: "on",
 });
 ```
 
