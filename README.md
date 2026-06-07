@@ -18,6 +18,8 @@ export default defineServer({
 
 ```bash
 pnpx fivem-cfg --input server.config.ts --output server.cfg
+
+Add `--verbose` / `-v` to see a confirmation message on stderr (default is silent).
 ```
 
 This generates a `server.cfg` file with the following content:
