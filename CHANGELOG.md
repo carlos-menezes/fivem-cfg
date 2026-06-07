@@ -1,5 +1,11 @@
 # fivem-cfg
 
+## 0.1.1
+
+### Patch Changes
+
+- Add .js extension to imports
+
 ## 0.1.0
 
 ### Minor Changes
