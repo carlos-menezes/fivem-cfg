@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.changeset/*.md
+!.changeset/config.json
+*.cfg

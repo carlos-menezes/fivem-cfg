@@ -1,0 +1,55 @@
+{
+	"name": "fivem-cfg",
+	"version": "0.0.0",
+	"description": "TypeScript config generator for FiveM server.cfg files",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"bin": {
+		"fivem-cfg": "./dist/cli.mjs"
+	},
+	"scripts": {
+		"build": "rolldown --config rolldown.config.ts && tsc && chmod +x dist/cli.mjs",
+		"check": "biome check --write",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"changeset": "changeset",
+		"version": "changeset version",
+		"release": "pnpm build && changeset publish",
+		"prepare": "husky"
+	},
+	"files": [
+		"dist/",
+		"bin/",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"fivem",
+		"server.cfg",
+		"config",
+		"generator",
+		"typescript"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^15.0.0",
+		"jiti": "^2.7.0",
+		"zod": "^3.24.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.16",
+		"@changesets/cli": "^2.28.0",
+		"@commitlint/cli": "^21.0.2",
+		"@commitlint/config-conventional": "^21.0.2",
+		"@types/node": "^22.0.0",
+		"husky": "^9.1.7",
+		"rolldown": "^1.0.3",
+		"typescript": "^5.7.0",
+		"vitest": "^4.1.8"
+	}
+}
